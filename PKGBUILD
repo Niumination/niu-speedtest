@@ -1,20 +1,20 @@
 # Maintainer: Your Name <your.email@example.com>
-pkgname=arch-speedtest
+pkgname=niu-speedtest
 pkgver=1.0.0
 pkgrel=1
 pkgdesc="A simple CLI speedtest tool for Arch Linux"
 arch=('any')
-url="https://github.com/yourusername/arch-speedtest"
+url="https://github.com/niumination/niu-speedtest"
 license=('MIT')
 depends=('python>=3.6')
-source=("${pkgname}-${pkgver}.tar.gz::https://github.com/yourusername/arch-speedtest/archive/v${pkgver}.tar.gz")
+source=("${pkgname}-${pkgver}.tar.gz::https://github.com/niumination/niu-speedtest/archive/v${pkgver}.tar.gz")
 sha256sums=('SKIP')
 
 package() {
     cd "${pkgname}-${pkgver}"
     
     # Install the main script
-    install -Dm755 speedtest.py "${pkgdir}/usr/bin/arch-speedtest"
+    install -Dm755 speedtest.py "${pkgdir}/usr/bin/niu-speedtest"
     
     # Install license
     install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
