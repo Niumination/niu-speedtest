@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Arch Linux Speedtest CLI Tool
+Arch Linux Niu-Speedtest CLI Tool
 A simple command-line speedtest utility for Arch Linux
 """
 
@@ -41,7 +41,7 @@ class SpeedtestCLI:
 
     def run_speedtest(self):
         """Run comprehensive speedtest"""
-        print("🚀 Arch Linux Speedtest CLI")
+        print("🚀 Arch Linux Niu-Speedtest CLI")
         print("=" * 40)
         print(f"Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         print()
@@ -77,12 +77,12 @@ class SpeedtestCLI:
 
     def show_help(self):
         """Show help information"""
-        print("Arch Linux Speedtest CLI")
+        print("Arch Linux Niu-Speedtest CLI")
         print()
         print("Usage:")
-        print("  arch-speedtest          Run speedtest")
-        print("  arch-speedtest --help   Show this help")
-        print("  arch-speedtest --version Show version")
+        print("  niu-speedtest          Run speedtest")
+        print("  niu-speedtest --help   Show this help")
+        print("  niu-speedtest --version Show version")
         print()
         print("Description:")
         print("  Tests download speed from multiple servers")

@@ -20,24 +20,24 @@ A simple command-line speedtest utility for Arch Linux that tests your internet 
 
 Using yay:
 ```bash
-yay -S arch-speedtest
+yay -S niu-speedtest
 ```
 
 Using other AUR helpers:
 ```bash
 # Using paru
-paru -S arch-speedtest
+paru -S niu-speedtest
 
 # Using pikaur
-pikaur -S arch-speedtest
+pikaur -S niu-speedtest
 ```
 
 ### Manual Installation
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/arch-speedtest.git
-cd arch-speedtest
+git clone https://github.com/niumination/niu-speedtest.git
+cd niu-speedtest
 ```
 
 2. Install using makepkg:
@@ -51,23 +51,23 @@ makepkg -si
 
 Run a speedtest:
 ```bash
-arch-speedtest
+niu-speedtest
 ```
 
 ### Help and Version
 
 Show help:
 ```bash
-arch-speedtest --help
+niu-speedtest --help
 # or
-arch-speedtest -h
+niu-speedtest -h
 ```
 
 Show version:
 ```bash
-arch-speedtest --version
+niu-speedtest --version
 # or
-arch-speedtest -v
+niu-speedtest -v
 ```
 
 ### Example Output
@@ -124,14 +124,14 @@ To build the package locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/arch-speedtest.git
-cd arch-speedtest
+git clone https://github.com/niumination/niu-speedtest.git
+cd niu-speedtest
 
 # Build the package
 makepkg
 
 # Install the built package
-sudo pacman -U arch-speedtest-*.pkg.tar.zst
+sudo pacman -U niu-speedtest-*.pkg.tar.zst
 ```
 
 ### Testing the Script
@@ -173,7 +173,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 1. **Permission Denied**: Make sure the script is executable:
    ```bash
-   chmod +x /usr/bin/arch-speedtest
+   chmod +x /usr/bin/niu-speedtest
    ```
 
 2. **Python Not Found**: Ensure Python 3.6+ is installed:
@@ -187,7 +187,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 If you encounter any issues:
 
-1. Check the [Issues](https://github.com/yourusername/arch-speedtest/issues) page
+1. Check the [Issues](https://github.com/niumination/niu-speedtest/issues) page
 2. Create a new issue with details about your problem
 3. Include your system information and error messages
 

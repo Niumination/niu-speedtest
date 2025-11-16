@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Arch Linux Speedtest CLI Tool
+Arch Linux Niu-Speedtest CLI Tool
 A simple command-line speed test utility for Arch Linux
 """
 
@@ -102,7 +102,7 @@ class SpeedtestCLI:
 
     def run_speedtest(self) -> SpeedtestResult:
         """Run complete speed test"""
-        print("🚀 Starting Arch Linux Speedtest...")
+        print("🚀 Starting Arch Linux Niu-Speedtest...")
         print("=" * 50)
         
         # Test ping
@@ -161,13 +161,13 @@ class SpeedtestCLI:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Arch Linux CLI Speedtest Tool",
+        description="Arch Linux CLI Niu-Speedtest Tool",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  arch-speedtest              # Run complete speed test
-  arch-speedtest --ping-only   # Test ping only
-  arch-speedtest --simple     # Simple output format
+  niu-speedtest              # Run complete speed test
+  niu-speedtest --ping-only   # Test ping only
+  niu-speedtest --simple     # Simple output format
         """
     )
     
