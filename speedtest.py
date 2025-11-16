@@ -2,6 +2,7 @@
 """
 Arch Linux Niu-Speedtest CLI Tool
 A simple command-line speedtest utility for Arch Linux
+*Niumination*
 """
 
 import sys
